@@ -111,14 +111,15 @@ Em seguida, execute o comando `gradle build` para instalar a dependência e adic
 
 # Como abrir o projeto criado? 
 
-Para abrir um projeto criado com o Spring Initializr com Maven ou Gradle, siga os seguintes passos:
+Para abrir um projeto criado com o Spring Initializr com Maven ou Gradle no Intellij, siga os seguintes passos:
 
-- Abra o Eclipse ou outra IDE de sua preferência.
-- No menu principal, selecione a opção "File" e clique em "Import".
-- Na janela de importação, selecione a opção "Existing Maven Projects" ou "Existing Gradle Projects", dependendo do gerenciador de dependências escolhido na criação do projeto.
-- Clique em "Next".
-- Na próxima tela, selecione o diretório onde o projeto foi salvo. Esse diretório deve conter o arquivo "pom.xml" (Maven) ou "build.gradle" (Gradle).
-- Clique em "Finish" para finalizar o processo de importação. O projeto agora estará disponível na sua IDE para ser editado e executado.
+Para abrir um projeto Gradle no IntelliJ, siga os seguintes passos:
+
+- Abra o IntelliJ e vá para "File > Open" ou pressione "Ctrl + O"
+- Selecione o diretório do projeto e clique em "Ok"
+- Na próxima tela, selecione "Import project from external model" e escolha "Gradle" ou "Import project from external model" e escolha "Maven"
+- Clique em "Next" e verifique as configurações do projeto. Se estiver tudo correto, clique em "Finish"
+
 
 Observação: é importante verificar se o Maven ou o Gradle estão corretamente configurados na sua máquina e na sua IDE. Se houver algum problema de configuração, o projeto pode não ser importado corretamente.
 
