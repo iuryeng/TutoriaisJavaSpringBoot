@@ -19,22 +19,36 @@ Abaixo segue uma tabela com os campos do Spring Initializr e suas respectivas de
 |Package Name	         | Nome do pacote base do projeto.               |
 |Packaging	           | Tipo de embalagem do projeto (war, jar, etc). |
 |Java Version	         | Versão do Java a ser utilizada.               |
-|Language	             | Linguagem de programação utilizada (Java, Kotlin, etc).|
-|Spring Boot           | Versão do Spring Boot a ser utilizada.                 |
-|Dependencies	         |Dependências adicionais que o projeto deve possuir.     |
+|Language	             | Linguagem de programação utilizada (Java, Kotlin, etc).  |
+|Spring Boot           | Versão do Spring Boot a ser utilizada.                   |
+|Dependencies	         | Dependências adicionais que o projeto deve possuir.      |
+|Build	               | Ferramenta de build a ser utilizada (Maven, Gradle, etc).|
 
-|Build	Ferramenta de build a ser utilizada (Maven, Gradle, etc).
+
 O campo Group é importante para identificar o grupo ao qual o projeto pertence, enquanto o campo Artifact é o nome do projeto em si. A Description fornece uma descrição do projeto, enquanto o Package Name é o nome do pacote base do projeto. O Packaging indica o tipo de embalagem do projeto (war, jar, etc) e o Java Version especifica a versão do Java a ser utilizada.
 
 O campo Language indica a linguagem de programação utilizada (Java, Kotlin, etc) e o Spring Boot indica a versão do Spring Boot a ser utilizada. As Dependencies são as dependências adicionais que o projeto deve possuir e os Custom Commands são comandos personalizados que podem ser executados durante a inicialização. Por fim, o Build indica a ferramenta de build a ser utilizada (Maven, Gradle, etc).
-
-
 
 Agora, vamos adicionar as dependências do projeto. Na seção "Search for dependencies", você pode pesquisar por dependências específicas e adicioná-las ao projeto. Por exemplo, se você precisar de suporte a banco de dados, basta pesquisar por "Spring Data MongoDB" e adicionar a dependência ao projeto.
 
 Quando terminar de adicionar as dependências, clique em "Generate Project". Isso fará com que o Spring Initializr gere o projeto com as dependências e configurações selecionadas. O projeto será baixado como um arquivo .zip, que você pode descompactar e importar para a sua IDE de preferência.
 
 Agora, você já tem um projeto Spring Boot pronto para começar a desenvolver sua aplicação. Aproveite o Spring Initializr como uma ferramenta útil para iniciar rapidamente
+
+# Exemplos de dependencias para iniciar um projeto de API Rest:
+
+Dependencias iniciais usadas no projeto Spring Initializr:
+
+- Spring Web: Essa dependência é utilizada para desenvolver aplicações web com o Spring. Ela inclui os componentes necessários para criar controllers, gerenciar requisições HTTP e configurar o mapeamento de rotas.
+
+- Lombok: Essa biblioteca é utilizada para simplificar a escrita de código Java, fornecendo anotações que geram automaticamente código boilerplate como getters, setters e construtores. Ela é especialmente útil para projetos com muitas entidades e evita a repetição de código.
+
+- Spring Data MongoDB: Essa dependência fornece integração com o banco de dados MongoDB, permitindo a criação de repositórios que facilitam o acesso aos dados. Ela também inclui o suporte para o uso de consultas personalizadas com a linguagem de consultas do MongoDB (query language).
+
+- Springfox Swagger: Essa biblioteca é utilizada para gerar documentação da API em formato Swagger, o que facilita o entendimento e o teste das rotas da API pelos desenvolvedores. Ela também gera uma interface web para visualização da documentação.
+
+- Springfox Swagger UI: Essa dependência é utilizada para fornecer a interface web de visualização da documentação gerada pelo Springfox Swagger. Ela é importante para que os desenvolvedores possam visualizar e testar as rotas da API de forma mais intuitiva.
+
 
 # Refedencia 
 
