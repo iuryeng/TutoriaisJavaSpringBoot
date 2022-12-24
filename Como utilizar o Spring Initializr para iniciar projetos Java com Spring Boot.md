@@ -1,2 +1,3 @@
-# TutoriaisJavaSpringBoot
-O repositório TutoriaisJavaSpringBoot é destinado a armazenar tutoriais, exemplos e projetos de demonstração relacionados ao desenvolvimento de aplicações Java utilizando o framewor
+# Como utilizar o Spring Initializr para iniciar projetos Java com Spring Boot
+
+Bem-vindo ao tutorial sobre o Spring Initializr! Neste tutorial, você aprenderá o que é o Spring Initializr, como utilizá-lo e como ele pode facilitar o processo de criação de aplicações Java Spring Boot. O Spring Initializr é uma ferramenta online que permite a criação de projetos Java Spring Boot de maneira rápida e fácil, fornecendo um modelo básico para que você possa iniciar o desenvolvimento da sua aplicação. Além disso, o Spring Initializr permite a adição de dependências específicas de acordo com as necessidades da sua aplicação, permitindo um maior controle sobre os recursos utilizados. Neste tutorial, você aprenderá a utilizar o Spring Initializr para criar projetos Java Spring Boot e adicionar as dependências necessárias para o seu projeto. Vamos começar!
