@@ -58,19 +58,6 @@ Quando terminar de adicionar as dependências, clique em "Generate Project". Iss
 
 Agora, você já tem um projeto Spring Boot pronto para começar a desenvolver sua aplicação. Aproveite o Spring Initializr como uma ferramenta útil para iniciar rapidamente.
 
-# Como abrir o projeto criado? 
-
-Para abrir um projeto criado com o Spring Initializr com Maven ou Gradle, siga os seguintes passos:
-
-- Abra o Eclipse ou outra IDE de sua preferência.
-- No menu principal, selecione a opção "File" e clique em "Import".
-- Na janela de importação, selecione a opção "Existing Maven Projects" ou "Existing Gradle Projects", dependendo do gerenciador de dependências escolhido na criação do projeto.
-- Clique em "Next".
-- Na próxima tela, selecione o diretório onde o projeto foi salvo. Esse diretório deve conter o arquivo "pom.xml" (Maven) ou "build.gradle" (Gradle).
-- Clique em "Finish" para finalizar o processo de importação. O projeto agora estará disponível na sua IDE para ser editado e executado.
-
-Observação: é importante verificar se o Maven ou o Gradle estão corretamente configurados na sua máquina e na sua IDE. Se houver algum problema de configuração, o projeto pode não ser importado corretamente.
-
 # Exemplos de dependencias para iniciar um projeto de API Rest:
 
 Dependencias iniciais usadas no projeto Spring Initializr:
@@ -97,6 +84,20 @@ Existem algumas razões pelas quais algumas dependências podem não estar dispo
 - A dependência pode ter sido adicionada recentemente e ainda não estar disponível no Initializr.
 
 Se você estiver tentando adicionar uma dependência que não está disponível no Initializr, pode ser necessário adicioná-la manualmente ao arquivo de configuração do projeto (por exemplo, pom.xml para projetos Maven ou build.gradle para projetos Gradle).
+
+# Como abrir o projeto criado? 
+
+Para abrir um projeto criado com o Spring Initializr com Maven ou Gradle, siga os seguintes passos:
+
+- Abra o Eclipse ou outra IDE de sua preferência.
+- No menu principal, selecione a opção "File" e clique em "Import".
+- Na janela de importação, selecione a opção "Existing Maven Projects" ou "Existing Gradle Projects", dependendo do gerenciador de dependências escolhido na criação do projeto.
+- Clique em "Next".
+- Na próxima tela, selecione o diretório onde o projeto foi salvo. Esse diretório deve conter o arquivo "pom.xml" (Maven) ou "build.gradle" (Gradle).
+- Clique em "Finish" para finalizar o processo de importação. O projeto agora estará disponível na sua IDE para ser editado e executado.
+
+Observação: é importante verificar se o Maven ou o Gradle estão corretamente configurados na sua máquina e na sua IDE. Se houver algum problema de configuração, o projeto pode não ser importado corretamente.
+
 
 
 # Referência 
