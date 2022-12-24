@@ -49,7 +49,7 @@ Dependencias iniciais usadas no projeto Spring Initializr:
 - Spring Data MongoDB: Essa dependência fornece integração com o banco de dados MongoDB, permitindo a criação de repositórios que facilitam o acesso aos dados. Ela também inclui o suporte para o uso de consultas personalizadas com a linguagem de consultas do MongoDB (query language).
 
 
-# Por que algumas dependencias não são econtradas no Initializr? 
+# Por que algumas dependencias não são encontradas no Initializr? 
 
 Existem algumas razões pelas quais algumas dependências podem não estar disponíveis no Spring Initializr:
 
