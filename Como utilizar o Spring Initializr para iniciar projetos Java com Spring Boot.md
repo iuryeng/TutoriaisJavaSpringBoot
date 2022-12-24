@@ -29,7 +29,10 @@ O campo Group é importante para identificar o grupo ao qual o projeto pertence,
 
 O campo Language indica a linguagem de programação utilizada (Java, Kotlin, etc) e o Spring Boot indica a versão do Spring Boot a ser utilizada. As Dependencies são as dependências adicionais que o projeto deve possuir e os Custom Commands são comandos personalizados que podem ser executados durante a inicialização. Por fim, o Build indica a ferramenta de build a ser utilizada (Maven, Gradle, etc).
 
-Agora, vamos adicionar as dependências do projeto. Na seção "Search for dependencies", você pode pesquisar por dependências específicas e adicioná-las ao projeto. Por exemplo, se você precisar de suporte a banco de dados, basta pesquisar por "Spring Data MongoDB" e adicionar a dependência ao projeto.
+Agora, vamos adicionar as dependências do projeto. Na seção "Dependencies", você pode pesquisar por dependências específicas e adicioná-las ao projeto. Por exemplo, se você precisar de suporte a banco de dados, basta pesquisar por "Spring Data MongoDB" e adicionar a dependência ao projeto.
+
+![image](https://user-images.githubusercontent.com/38250160/209450526-78ba5e2f-578d-4aa3-9bea-1b61cc0d2b50.png)
+
 
 Quando terminar de adicionar as dependências, clique em "Generate Project". Isso fará com que o Spring Initializr gere o projeto com as dependências e configurações selecionadas. O projeto será baixado como um arquivo .zip, que você pode descompactar e importar para a sua IDE de preferência.
 
@@ -50,6 +53,6 @@ Dependencias iniciais usadas no projeto Spring Initializr:
 - Springfox Swagger UI: Essa dependência é utilizada para fornecer a interface web de visualização da documentação gerada pelo Springfox Swagger. Ela é importante para que os desenvolvedores possam visualizar e testar as rotas da API de forma mais intuitiva.
 
 
-# Refedencia 
+# Referência 
 
 https://docs.spring.io/initializr/docs/current/reference/html/
