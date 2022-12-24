@@ -48,9 +48,24 @@ Dependencias iniciais usadas no projeto Spring Initializr:
 
 - Spring Data MongoDB: Essa dependência fornece integração com o banco de dados MongoDB, permitindo a criação de repositórios que facilitam o acesso aos dados. Ela também inclui o suporte para o uso de consultas personalizadas com a linguagem de consultas do MongoDB (query language).
 
-- Springfox Swagger: Essa biblioteca é utilizada para gerar documentação da API em formato Swagger, o que facilita o entendimento e o teste das rotas da API pelos desenvolvedores. Ela também gera uma interface web para visualização da documentação.
 
-- Springfox Swagger UI: Essa dependência é utilizada para fornecer a interface web de visualização da documentação gerada pelo Springfox Swagger. Ela é importante para que os desenvolvedores possam visualizar e testar as rotas da API de forma mais intuitiva.
+# Por que algumas dependencias não são econtradas no Initializr? 
+
+Existem algumas razões pelas quais algumas dependências podem não estar disponíveis no Spring Initializr:
+
+- A dependência pode ter sido descontinuada ou removida pelos mantenedores.
+
+- A dependência pode não ser compatível com a versão do Spring Boot que você está usando.
+
+- A dependência pode não estar disponível para o tipo de empacotamento que você está usando (por exemplo, WAR ou JAR).
+
+- A dependência pode não ser compatível com o tipo de projeto que você está criando (por exemplo, Maven ou Gradle).
+
+- A dependência pode ter sido adicionada recentemente e ainda não estar disponível no Initializr.
+
+Se você estiver tentando adicionar uma dependência que não está disponível no Initializr, pode ser necessário adicioná-la manualmente ao arquivo de configuração do projeto (por exemplo, pom.xml para projetos Maven ou build.gradle para projetos Gradle).
+
+
 
 
 # Referência 
