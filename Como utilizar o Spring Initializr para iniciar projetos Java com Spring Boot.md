@@ -85,6 +85,30 @@ Existem algumas razões pelas quais algumas dependências podem não estar dispo
 
 Se você estiver tentando adicionar uma dependência que não está disponível no Initializr, pode ser necessário adicioná-la manualmente ao arquivo de configuração do projeto (por exemplo, pom.xml para projetos Maven ou build.gradle para projetos Gradle).
 
+# Como adicionar dependencias ao projeto que o inicialz nao encontrou?
+
+Para adicionar dependências ao projeto que o Spring Initializr não encontrou, você pode adicioná-las manualmente no arquivo pom.xml do projeto. Abaixo está um exemplo de como adicionar uma dependência usando o Maven:
+
+```
+<dependency>
+  <groupId>com.example</groupId>
+  <artifactId>example-library</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
+
+Você também pode usar o comando `mvn install` para instalar a dependência no repositório local do Maven e adicioná-la ao seu projeto.
+
+Se você estiver usando o Gradle, basta adicionar a dependência ao arquivo build.gradle do projeto:
+
+```
+dependencies {
+  compile 'com.example:example-library:1.0.0'
+}
+```
+Em seguida, execute o comando `gradle build` para instalar a dependência e adicioná-la ao projeto.
+
+
 # Como abrir o projeto criado? 
 
 Para abrir um projeto criado com o Spring Initializr com Maven ou Gradle, siga os seguintes passos:
