@@ -29,6 +29,17 @@ O campo Group é importante para identificar o grupo ao qual o projeto pertence,
 
 O campo Language indica a linguagem de programação utilizada (Java, Kotlin, etc) e o Spring Boot indica a versão do Spring Boot a ser utilizada. As Dependencies são as dependências adicionais que o projeto deve possuir e os Custom Commands são comandos personalizados que podem ser executados durante a inicialização. Por fim, o Build indica a ferramenta de build a ser utilizada (Maven, Gradle, etc).
 
+# Como nomear da melhor forma os campos do Initialzr?
+
+O nome dos campos no Spring Initializr deve ser escolhido de forma a representar de forma clara e precisa o que eles fazem no projeto. Alguns critérios que podem ser considerados na hora de nomear os campos são:
+
+Evite usar nomes muito genéricos, como "campo1" ou "objeto". Use nomes que descrevam o que o campo representa, como "nomeProduto" ou "dataNascimento".
+Se for preciso usar abreviações, explique-as na documentação do projeto. Por exemplo, ao invés de usar "cpf", pode-se usar "numeroCpf".
+Use nomes em inglês, mesmo que o projeto seja em outra língua. Isso ajuda a padronizar e a facilitar a leitura pelos desenvolvedores que trabalham no projeto.
+Mantenha os nomes curtos e simples, evitando palavras muito longas ou termos técnicos desnecessários.
+Considere o uso de camelCase ou snake_case para separar as palavras dos campos.
+Em resumo, o ideal é que os campos do Initializr tenham nomes claros e precisos, que ajudem a entender o que eles fazem no projeto e facilitem a leitura pelos desenvolvedores.
+
 Agora, vamos adicionar as dependências do projeto. Na seção "Dependencies", você pode pesquisar por dependências específicas e adicioná-las ao projeto clicando no botão "ADD DEPENDENCES" ou clicando CTR + B. Por exemplo, se você precisar de suporte a banco de dados, basta pesquisar por "Spring Data MongoDB" e adicionar a dependência ao projeto. Você pode adicionar, por exemplo, dependências basicas de uma API Rest. ( Verifique em:  Exemplos de dependencias para iniciar um projeto de API Rest )
 
 ![image](https://user-images.githubusercontent.com/38250160/209450526-78ba5e2f-578d-4aa3-9bea-1b61cc0d2b50.png)
