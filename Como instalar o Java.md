@@ -4,16 +4,17 @@
 
 1. Acesse o site do AdoptOpenJDK (https://adoptopenjdk.net/) e selecione a versão do Java que você deseja instalar. Você pode escolher entre as versões LTS (Long Term Support) ou as versões mais recentes.
 
-2. Selecione o sistema operacional em que você deseja instalar o Java. Você pode escolher entre Windows, macOS, Linux ou outro sistema operacional.
+2. Selecione o sistema operacional Windows como o sistema operacional em que você deseja instalar o Java.
 
 3. Clique no botão "Download" para iniciar o download do arquivo de instalação. Certifique-se de que você está baixando a versão correta para o seu sistema operacional.
 
-4. Quando o download for concluído, localize o arquivo de instalação e clique duas vezes nele para iniciar o processo de instalação. Siga as instruções na tela para concluir a instalação.
+4. Na página de download, selecione o arquivo ".msi" na seção "Windows Installer (64-bit)" para baixar o arquivo de instalação para o Windows.
 
-5. Depois de instalar o Java, é importante verificar se a instalação foi bem-sucedida. Abra o prompt de comando ou o terminal e digite o comando "java -version". Se a instalação foi bem-sucedida, o prompt exibirá informações sobre a versão do Java instalada.
+5. Quando o download for concluído, localize o arquivo de instalação e clique duas vezes nele para iniciar o processo de instalação. Siga as instruções na tela para concluir a instalação.
+
+6. Depois de instalar o Java, é importante verificar se a instalação foi bem-sucedida. Abra o prompt de comando ou o terminal e digite o comando "java -version". Se a instalação foi bem-sucedida, o prompt exibirá informações sobre a versão do Java instalada.
 
 Se você tiver problemas durante o processo de instalação, verifique se você está baixando a versão correta para o seu sistema operacional e siga as instruções na tela. Se você continuar enfrentando problemas, pode ser necessário desinstalar o Java e reinstá-lo ou entrar em contato com o suporte do AdoptOpenJDK para obter ajuda.
-
 
 ## Para instalar o Java Oracle, siga os seguintes passos:
 
