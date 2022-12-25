@@ -19,9 +19,9 @@ Se preferir instale a CLI do MongoDb [CLI Atlas](https://www.mongodb.com/try/dow
 
 Se preferi instale o shell do MongoDb [Shell MongoDB](https://www.mongodb.com/try/download/shell)
 
-Vá em : C:\Program Files\MongoDB\Server\6.0>mongod\bin e execute o commando: ```mongod```
-
 O comando "mongod" é usado para iniciar o servidor do MongoDB. Ele deve ser executado no terminal a partir do diretório de instalação do MongoDB. 
+
+Vá em : C:\Program Files\MongoDB\Server\6.0>mongod\bin e execute o commando: ```mongod```
 
 Quando o comando mongod é executado, deve aparecer uma mensagem indicando que o servidor do MongoDB está sendo iniciado. Dependendo da configuração do servidor, também pode aparecer mensagens de log com informações sobre o processo de inicialização e o status do servidor. Se o servidor for iniciado com sucesso, a mensagem deve indicar que o servidor está pronto para aceitar conexões. 
 
