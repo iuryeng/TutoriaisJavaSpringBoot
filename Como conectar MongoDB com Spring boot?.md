@@ -101,13 +101,21 @@ Crie um método de teste com a anotação @Test. Nele, utilize o objeto MongoTem
 
 
 ```
-@Test
-public void testConnection() {
-    List<Document> documents = mongoTemplate.findAll(Document.class);
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class MongoDbTest {
+  
+  @Autowired
+  private MongoTemplate mongoTemplate;
+  
+  @Test
+  public void testConnection() {
+    List<Document> documents = mongoTemplate.findAll(Document.class, "collection_name");
     assertThat(documents).isNotEmpty();
+  }
 }
 
-```
-- Execute o teste usando o comando mvn test. Se a conexão com o banco de dados estiver funcionando corretamente, o teste deve ser executado com sucesso.
 
+```
+- Execute o teste usando o método de teste criado. Se o teste passar, significa que você conseguiu se conectar ao banco de dados e realizar uma operação. Se o teste falhar, verifique se você configurou corretamente os parâmetros de conexão no arquivo application.properties. Também verifique se o servidor MongoDB está rodando e se você tem permissão para acessar o banco de dados.
 
