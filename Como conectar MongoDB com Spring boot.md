@@ -16,6 +16,13 @@ Para conectar o MongoDB com o Spring Boot, é necessário seguir os seguintes pa
 Para conectar o MongoDB com Spring Boot, primeiro é preciso instalar o servidor MongoDB na sua máquina, se ainda não o tiver instalado. Você pode baixar o MongoDB no site oficial e seguir as instruções de instalação. baixe e instale a última versão disponível em https://www.mongodb.com/download-center/community. 
 
 Se preferir instale a CLI do MongoDb [CLI Atlas](https://www.mongodb.com/try/download/compass).
+
+Vá em : C:\Program Files\MongoDB\Server\6.0>mongod\bin e execute o commando: ```mongod```
+
+O comando "mongod" é usado para iniciar o servidor do MongoDB. Ele deve ser executado no terminal a partir do diretório de instalação do MongoDB. 
+
+Quando o comando mongod é executado, deve aparecer uma mensagem indicando que o servidor do MongoDB está sendo iniciado. Dependendo da configuração do servidor, também pode aparecer mensagens de log com informações sobre o processo de inicialização e o status do servidor. Se o servidor for iniciado com sucesso, a mensagem deve indicar que o servidor está pronto para aceitar conexões. Se houver algum erro durante o processo de inicialização, a mensagem deve indicar o motivo do erro e fornecer informações adicionais para ajudar a diagnosticar e solucionar o problema.
+
 ## Passo 2: 
 Após instalar o servidor MongoDB, é preciso adicionar a dependência do Spring Data MongoDB ao seu projeto. Isso pode ser feito adicionando a seguinte linha ao arquivo pom.xml (caso esteja usando Maven) ou build.gradle (caso esteja usando Gradle):
 
