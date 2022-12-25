@@ -138,3 +138,40 @@ public class MongoDbTest {
 ```
 - Execute o teste usando o método de teste criado. Se o teste passar, significa que você conseguiu se conectar ao banco de dados e realizar uma operação. Se o teste falhar, verifique se você configurou corretamente os parâmetros de conexão no arquivo application.properties. Também verifique se o servidor MongoDB está rodando e se você tem permissão para acessar o banco de dados.
 
+
+## Extra: Você pode querer saber também:
+
+## Alguns comandos básicos do mongoshell:
+
+O MongoDB possui uma interface de linha de comando chamada mongo shell, que permite realizar operações no banco de dados através de comandos. Alguns comandos básicos que podem ser úteis para iniciar são:
+
+- use nome_do_banco: Seleciona o banco de dados a ser usado.
+- show dbs: Exibe uma lista de todos os bancos de dados existentes.
+- db: Exibe o nome do banco de dados atualmente selecionado.
+- show collections: Exibe uma lista de coleções (equivalente a tabelas em um banco de dados relacional) no banco de dados atualmente selecionado.
+- db.createCollection('nome_da_colecao'): Cria uma nova coleção no banco de dados atualmente selecionado.
+- db.nome_da_colecao.insert({json}): Insere um novo documento (equivalente a uma linha em uma tabela em um banco de dados relacional) na coleção especificada. O JSON - 
+deve conter os campos e valores a serem inseridos.
+- db.nome_da_colecao.find(): Consulta todos os documentos da coleção especificada.
+- db.nome_da_colecao.find({filtro}): Consulta os documentos da coleção especificada que atendam ao filtro especificado.
+- db.nome_da_colecao.update({filtro}, {atualizacao}): Atualiza os documentos da coleção especificada que atendam ao filtro especificado, aplicando as alterações  especificadas na atualização.
+-db.nome_da_colecao.remove({filtro}): Remove os documentos da coleção especificada que atendam ao filtro especificado.
+
+Esses são apenas alguns exemplos de comandos que podem ser úteis no mongo shell. Existem muitas outras opções e operações disponíveis, dependendo das necessidades da aplicação.
+
+## adicionar um usuário e senha ao servidor MongoDB, é necessário seguir os seguintes passos:
+
+- Inicie o servidor MongoDB usando o comando mongod.
+- Inicie o mongo shell usando o comando mongo.
+- Selecione o banco de dados admin usando o comando use admin.
+- Crie o usuário usando o comando db.createUser({user: "nome_do_usuario", pwd: "senha", roles: ["root"]}). Substitua "nome_do_usuario" pelo nome desejado para o usuário e "senha" pelo password desejado.
+- Encerre o mongo shell usando o comando exit.
+- Modifique o arquivo de configuração do MongoDB para incluir as informações de autenticação. No arquivo de configuração, adicione as seguintes linhas:
+
+``` security:
+  authorization: enabled
+``` 
+- Reinicie o servidor MongoDB.
+
+Agora, é necessário fornecer o nome de usuário e senha ao conectar-se ao servidor MongoDB usando o mongo shell ou qualquer outra aplicação. Por exemplo, para conectar-se ao servidor usando o mongo shell, use o comando mongo -u nome_do_usuario -p senha --authenticationDatabase admin.
+
