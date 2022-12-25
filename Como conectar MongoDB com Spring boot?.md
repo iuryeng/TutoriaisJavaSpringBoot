@@ -67,7 +67,7 @@ spring.data.mongodb.uri=mongodb+srv://username:password@cluster0.mongodb.net/tes
 
 Crie uma classe de configuração para habilitar o uso do Spring Data MongoDB no projeto.
 
-- Para incluir o suporte ao MongoDB no seu projeto Spring Boot, você deve criar um arquivo de configuração na pasta src/main/java. Neste arquivo, você deve adicionar a anotação @EnableMongoRepositories para habilitar o suporte a repositórios MongoDB.
+- Para incluir o suporte ao MongoDB no seu projeto Spring Boot, você deve criar um arquivo de configuração na pasta src/main/java. Neste arquivo, você deve adicionar a anotação  `@Configuration` para indicar que é uma classe de configuração do contexto do Spring e `@EnableMongoRepositories` para habilitar o suporte a repositórios MongoDB.
 
 ```
 @Configuration
@@ -76,6 +76,8 @@ public class MongoDBConfig {
 }
 
 ```
+
+- O @Configuration é uma anotação em Spring que indica que uma classe é usada para configurar o contexto do Spring. É usada para especificar que um bean deve ser criado para o contexto do Spring e que pode ser injetado em outros beans. É comumente usada junto com @Bean para criar e gerenciar beans no contexto do Spring. Além disso, as classes de configuração também podem ser usadas para configurar as propriedades do aplicativo, como a configuração de conexão com o banco de dados, configuração de segurança, configuração de propriedades de desempenho, entre outros. É importante notar que as classes de configuração são geralmente criadas no pacote raiz do aplicativo e podem ser usadas para configurar vários beans em diferentes pacotes do aplicativo.
 
 - O @EnableMongoRepositories é um anotação usada para habilitar o suporte para repositórios MongoDB no projeto Spring Boot. Ele é usado para ativar a configuração de repositório MongoDB, que inclui a configuração do MappingMongoConverter para converter objetos Java para e de Documentos MongoDB.Quando a anotação é adicionada em um projeto, o Spring Boot irá procurar por todos os repositórios MongoDB na aplicação e os registrará como beans no contexto da aplicação. Isso permite que eles sejam usados em qualquer parte da aplicação, como controllers e services.Além disso, a anotação também permite especificar o pacote base para os repositórios MongoDB na aplicação, para que o Spring Boot possa facilmente encontrá-los durante a inicialização da aplicação.
 
