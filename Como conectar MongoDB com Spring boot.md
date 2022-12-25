@@ -172,7 +172,7 @@ Esses são apenas alguns exemplos de comandos que podem ser úteis no mongo shel
 
 - Encerre o mongo shell usando o comando exit.
 - Modifique o arquivo de configuração do MongoDB para incluir as informações de autenticação. No arquivo de configuração, adicione as seguintes linhas:
-Esse arquivo pode ser encontrado no caminho do executável . Ex:. "C:\Program Files\MongoDB\Server\6.0\bin\mongod.cfg"
+Esse arquivo pode ser encontrado no caminho do executável . Ex:. ```C:\Program Files\MongoDB\Server\6.0\bin\mongod.cfg ```
 ``` 
 security:
   authorization: enabled
