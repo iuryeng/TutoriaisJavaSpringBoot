@@ -106,3 +106,15 @@ O JDK inclui o seguinte:
 
 O JDK também inclui documentação e exemplos de código que ajudam os desenvolvedores a aprender a usar as ferramentas e bibliotecas incluídas no kit de desenvolvimento.
 
+## Qual a diferença entre uma JVM Ponto de acesso para OpenJ9 ?
+
+A JVM Ponto de Acesso é um projeto de código aberto da Oracle que fornece uma implementação da JVM (Java Virtual Machine) para a linguagem de programação Java. A JVM Ponto de Acesso é projetada para ser rápida, leve e fácil de usar, e é usada em muitos ambientes de produção para executar programas Java.
+
+OpenJ9 é uma outra implementação da JVM que também é um projeto de código aberto, mas é mantida pela IBM e pelo Eclipse Foundation. Como a JVM Ponto de Acesso, a OpenJ9 é projetada para ser rápida, leve e fácil de usar, e é usada para executar programas Java em muitos ambientes diferentes.
+
+A principal diferença entre a JVM Ponto de Acesso e a OpenJ9 é que a JVM Ponto de Acesso é mantida pela Oracle, enquanto a OpenJ9 é mantida pela IBM e pelo Eclipse Foundation. Além disso, a JVM Ponto de Acesso é otimizada para rodar em sistemas operacionais Windows, enquanto a OpenJ9 é otimizada para rodar em sistemas operacionais Linux e macOS.
+
+Ambas as JVMs são populares e amplamente utilizadas para executar programas Java, e cada uma delas tem suas próprias características e vantagens. A escolha entre elas geralmente depende das necessidades específicas do projeto e do ambiente de execução.
+
+
+
