@@ -2,14 +2,15 @@
 
 Para conectar o MongoDB com o Spring Boot, é necessário seguir os seguintes passos:
 
-1. Instale o servidor MongoDB na sua máquina ou crie uma conta no Mongo Atlas e crie um cluster. Instale o servidor MongoDB na sua máquina ou crie uma conta no Mongo Atlas e crie um cluster.
+1. Instale o servidor MongoDB na sua máquina ou crie uma conta no Mongo Atlas e crie um cluster. Instale o servidor MongoDB na sua máquina ou crie uma conta no Mongo Atlas e crie um cluster. 
 
 2. Adicione a dependência do Spring Data MongoDB ao seu projeto através do arquivo pom.xml (caso esteja usando Maven) ou do arquivo build.gradle (caso esteja usando Gradle).
 
 3. Configure a conexão com o MongoDB no arquivo application.properties, adicionando as seguintes propriedades:
 
 ## Passo 1: 
-Para conectar o MongoDB com Spring Boot, primeiro é preciso instalar o servidor MongoDB na sua máquina, se ainda não o tiver instalado. Você pode baixar o MongoDB no site oficial e seguir as instruções de instalação. baixe e instale a última versão disponível em https://www.mongodb.com/download-center/community.
+Para conectar o MongoDB com Spring Boot, primeiro é preciso instalar o servidor MongoDB na sua máquina, se ainda não o tiver instalado. Você pode baixar o MongoDB no site oficial e seguir as instruções de instalação. baixe e instale a última versão disponível em https://www.mongodb.com/download-center/community. Após a instalção
+inicie o servidor MongoDB executando o comando `mongod` em seu terminal.
 
 ## Passo 2: 
 Após instalar o servidor MongoDB, é preciso adicionar a dependência do Spring Data MongoDB ao seu projeto. Isso pode ser feito adicionando a seguinte linha ao arquivo pom.xml (caso esteja usando Maven) ou build.gradle (caso esteja usando Gradle):
@@ -40,3 +41,32 @@ spring.data.mongodb.username=admin
 spring.data.mongodb.password=secret
 
 ```
+
+Se você estiver usando o MongoDB Atlas, a URL de conexão será um pouco diferente, como mostrado abaixo:
+
+```
+spring.data.mongodb.uri=mongodb+srv://username:password@cluster0.mongodb.net/test
+
+```
+
+Com essas configurações, o Spring Boot já estará conectado ao MongoDB e pronto para persistir e recuperar dados. É possível testar a conexão criando uma classe de teste como a seguir:
+
+
+```
+@SpringBootTest
+class ConexaoMongodbApplicationTests {
+
+  @Autowired
+  private MongoTemplate mongoTemplate;
+
+  @Test
+  void contextLoads() {
+    assertNotNull(mongoTemplate);
+  }
+
+}
+
+
+```
+
+
