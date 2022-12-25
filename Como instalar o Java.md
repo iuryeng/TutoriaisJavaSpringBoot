@@ -12,7 +12,12 @@
 
 5. Quando o download for concluído, localize o arquivo de instalação e clique duas vezes nele para iniciar o processo de instalação. Siga as instruções na tela para concluir a instalação.
 
-6. Depois de instalar o Java, é importante verificar se a instalação foi bem-sucedida. Abra o prompt de comando ou o terminal e digite o comando ``java -version``. Se a instalação foi bem-sucedida, o prompt exibirá informações sobre a versão do Java instalada.
+6. Quando a tela de instalação iniciar, Configure a Variável de Ambiente JAVA_HOME durante a Instalação do AdoptOpenJDK (ver na sessão abaixo)
+
+7. Depois de instalar o Java, é importante verificar se a instalação foi bem-sucedida. Abra o prompt de comando ou o terminal e digite o comando ``java -version``. Se a instalação foi bem-sucedida, o prompt exibirá informações sobre a versão do Java instalada.
+
+![image](https://user-images.githubusercontent.com/38250160/209458681-1677f891-6169-4537-94d6-f5f443ff7b92.png)
+
 
 Se você tiver problemas durante o processo de instalação, verifique se você está baixando a versão correta para o seu sistema operacional e siga as instruções na tela. Se você continuar enfrentando problemas, pode ser necessário desinstalar o Java e reinstá-lo ou entrar em contato com o suporte do AdoptOpenJDK para obter ajuda.
 
