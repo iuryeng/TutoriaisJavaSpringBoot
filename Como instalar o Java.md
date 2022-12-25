@@ -79,7 +79,17 @@ No terminal, digite o comando "source ~/.bashrc" para atualizar as variáveis de
 
 # Além disso, você pode estar interessado em saber mais sobre:
 
-## O que é uma JVM?
+## O que é o JRE ?
+
+JRE (Java Runtime Environment) é um ambiente de execução Java que permite que os programas escritos na linguagem de programação Java sejam executados em um computador. Ele inclui a JVM (Java Virtual Machine) e as bibliotecas de tempo de execução necessárias para executar aplicativos Java.
+
+O JRE é distribuído gratuitamente pela Oracle e está disponível para download em seu site. Ele é normalmente instalado automaticamente junto com o JDK (Java Development Kit) durante o processo de instalação do Java.
+
+O JRE é usado para executar aplicativos Java, mas não inclui as ferramentas de desenvolvimento incluídas no JDK. Se você deseja desenvolver aplicativos Java, precisará instalar o JDK, que inclui o JRE e as ferramentas de desenvolvimento necessárias.
+
+Ao instalar o JRE, você pode escolher instalar apenas o JRE ou instalar o JRE junto com o navegador web e o plugin Java, que permite que os aplicativos Java sejam executados no navegador web. Se você deseja executar aplicativos Java em um navegador web, precisará instalar o plugin Java junto com o JRE.
+
+## O que é uma JVM ?
 JVM (Java Virtual Machine) é um ambiente de execução que permite que os programas escritos na linguagem de programação Java sejam executados em diferentes sistemas operacionais e plataformas. A JVM é responsável por carregar, interpretar e executar os programas Java.
 
 Quando um programa Java é compilado, ele é convertido em um conjunto de instruções chamadas código de máquina Java, que é específico para a JVM. Quando o programa é executado, a JVM carrega o código de máquina e o interpreta, convertendo as instruções em ações que o sistema operacional entende e pode executar. Isso permite que o programa Java seja executado em qualquer sistema operacional que tenha uma JVM instalada, independentemente de qual linguagem de programação foi usada para escrever o sistema operacional.
