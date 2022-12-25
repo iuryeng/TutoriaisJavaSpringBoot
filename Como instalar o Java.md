@@ -116,6 +116,20 @@ O JDK inclui o seguinte:
 
 O JDK também inclui documentação e exemplos de código que ajudam os desenvolvedores a aprender a usar as ferramentas e bibliotecas incluídas no kit de desenvolvimento.
 
+
+## Entendendo a Nomeclatura das versões - Exemplo JDK: jdk-11.0.17+8
+
+A nomeclatura "jdk-11.0.17+8" se refere a uma versão específica do JDK (Java Development Kit). O JDK é um conjunto de ferramentas de desenvolvimento de software que é usado para criar aplicativos Java.
+
+O número "11" na nomeclatura indica a versão principal do JDK. O JDK é atualizado periodicamente para incluir novas funcionalidades e corrigir problemas. A cada nova versão principal, o JDK é atualizado para uma nova versão, como a versão 11 ou a versão 14.
+
+O número "0.17" na nomeclatura indica a versão menor do JDK. As atualizações menores são lançadas periodicamente para incluir novas funcionalidades e corrigir problemas em versões específicas do JDK. Por exemplo, a versão 0.17 pode ser uma atualização menor para a versão principal 11 do JDK.
+
+O número "+8" na nomeclatura é um código de build que indica a versão específica do JDK. Cada build do JDK é uma versão específica que inclui correções de erros e outras atualizações. O código de build é usado para identificar a versão específica do JDK que está sendo usada.
+
+Em resumo, a nomeclatura "jdk-11.0.17+8" se refere a uma versão específica do JDK, que é a versão 11 com a atualização menor 0.17 e o código de build +8. Ela inclui todas as funcionalidades e correções de erros incluídas nas versões anteriores e pode ser usada para desenvolver aplicativos Java.
+
+
 ## Qual a diferença entre uma JVM Ponto de acesso para OpenJ9 ?
 
 A JVM Ponto de Acesso é um projeto de código aberto da Oracle que fornece uma implementação da JVM (Java Virtual Machine) para a linguagem de programação Java. A JVM Ponto de Acesso é projetada para ser rápida, leve e fácil de usar, e é usada em muitos ambientes de produção para executar programas Java.
