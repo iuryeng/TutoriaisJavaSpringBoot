@@ -81,24 +81,27 @@ public class MongoDBConfig {
 
 - O @EnableMongoRepositories é um anotação usada para habilitar o suporte para repositórios MongoDB no projeto Spring Boot. Ele é usado para ativar a configuração de repositório MongoDB, que inclui a configuração do MappingMongoConverter para converter objetos Java para e de Documentos MongoDB.Quando a anotação é adicionada em um projeto, o Spring Boot irá procurar por todos os repositórios MongoDB na aplicação e os registrará como beans no contexto da aplicação. Isso permite que eles sejam usados em qualquer parte da aplicação, como controllers e services.Além disso, a anotação também permite especificar o pacote base para os repositórios MongoDB na aplicação, para que o Spring Boot possa facilmente encontrá-los durante a inicialização da aplicação.
 
-Com essas configurações, o Spring Boot já estará conectado ao MongoDB e pronto para persistir e recuperar dados. É possível testar a conexão criando uma classe de teste como a seguir:
+Com essas configurações, o Spring Boot já estará conectado ao MongoDB e pronto para persistir e recuperar dados.
+
+É possível testar a conexão criando uma classe de teste que conecte o MongoDB usando o Spring Boot. Para criar essa classe, siga os seguintes passos:
+
+- Abra o arquivo de testes da sua aplicação, geralmente localizado em src/test/java.
+- Crie uma nova classe de teste chamada, por exemplo, MongoDbTest.
+- Adicione a anotação @RunWith(SpringRunner.class) para indicar que essa classe é um teste do Spring.
+- Adicione a anotação @SpringBootTest para indicar que essa classe deve ser iniciada como uma aplicação Spring Boot.
+- Injete a dependência do objeto MongoTemplate usando a anotação @Autowired. Esse objeto será usado para realizar operações no banco de dados.
+
+Crie um método de teste com a anotação @Test. Nele, utilize o objeto MongoTemplate para realizar uma operação de consulta no banco de dados. Por exemplo:
 
 
 ```
-@SpringBootTest
-class ConexaoMongodbApplicationTests {
-
-  @Autowired
-  private MongoTemplate mongoTemplate;
-
-  @Test
-  void contextLoads() {
-    assertNotNull(mongoTemplate);
-  }
-
+@Test
+public void testConnection() {
+    List<Document> documents = mongoTemplate.findAll(Document.class);
+    assertThat(documents).isNotEmpty();
 }
 
-
 ```
+- Execute o teste usando o comando mvn test. Se a conexão com o banco de dados estiver funcionando corretamente, o teste deve ser executado com sucesso.
 
 
