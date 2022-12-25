@@ -30,7 +30,7 @@ Quando o comando mongod é executado, deve aparecer uma mensagem indicando que o
 
 Se houver algum erro durante o processo de inicialização, a mensagem deve indicar o motivo do erro e fornecer informações adicionais para ajudar a diagnosticar e solucionar o problema.
 
-Após inicializar o servidor, abra o MongoCompass e faça uma nova conexão com a URI: mongodb://localhost:27017
+Após inicializar o servidor, abra o MongoCompass e faça uma nova conexão com a URI: ```mongodb://localhost:27017```
 
 Ainda no CMD você pode digitat o comando "mongo" é usado para iniciar o shell do MongoDB, que permite a realização de operações no banco de dados através de comandos do próprio shell. Por exemplo:```mongodb```
 
