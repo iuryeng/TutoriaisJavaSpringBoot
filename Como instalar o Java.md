@@ -76,3 +76,28 @@ No Linux:
 - Salve o arquivo e feche o editor.
 
 No terminal, digite o comando "source ~/.bashrc" para atualizar as variáveis de ambiente.
+
+## Além disso, você pode estar interessado em saber mais sobre:
+
+# O que é uma JVM
+
+# O que é um JDK ?
+
+JDK (Java Development Kit) é um conjunto de ferramentas de desenvolvimento de software que é usado para criar aplicativos Java. Ele inclui um compilador Java, um interpretador Java e uma série de bibliotecas e ferramentas que são usadas para desenvolver, testar e depurar aplicativos Java.
+
+O JDK é uma parte essencial da plataforma de desenvolvimento Java e é necessário para qualquer pessoa que deseje desenvolver aplicativos Java. Ele é distribuído gratuitamente pela Oracle e está disponível para download em seu site.
+
+O JDK inclui o seguinte:
+
+- Compilador Java: um programa que converte o código fonte Java em um conjunto de instruções que a JVM (Java Virtual Machine) entende e pode executar.
+
+- Interpretador Java: um programa que lê o código de máquina Java e o executa.
+
+- Bibliotecas: conjuntos de classes pré-escritas que fornecem funcionalidades comuns usadas pelos aplicativos Java, como entrada e saída de dados, gerenciamento de memória e acesso ao sistema de arquivos.
+
+- Ferramentas de depuração: ferramentas que ajudam a identificar e corrigir problemas em aplicativos Java.
+
+- Ferramentas de teste: ferramentas que ajudam a testar aplicativos Java para garantir que eles estejam funcionando corretamente.
+
+O JDK também inclui documentação e exemplos de código que ajudam os desenvolvedores a aprender a usar as ferramentas e bibliotecas incluídas no kit de desenvolvimento.
+
