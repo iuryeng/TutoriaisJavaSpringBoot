@@ -80,6 +80,11 @@ No terminal, digite o comando "source ~/.bashrc" para atualizar as variáveis de
 ## Além disso, você pode estar interessado em saber mais sobre:
 
 # O que é uma JVM
+JVM (Java Virtual Machine) é um ambiente de execução que permite que os programas escritos na linguagem de programação Java sejam executados em diferentes sistemas operacionais e plataformas. A JVM é responsável por carregar, interpretar e executar os programas Java.
+
+Quando um programa Java é compilado, ele é convertido em um conjunto de instruções chamadas código de máquina Java, que é específico para a JVM. Quando o programa é executado, a JVM carrega o código de máquina e o interpreta, convertendo as instruções em ações que o sistema operacional entende e pode executar. Isso permite que o programa Java seja executado em qualquer sistema operacional que tenha uma JVM instalada, independentemente de qual linguagem de programação foi usada para escrever o sistema operacional.
+
+A JVM também fornece um conjunto de serviços e bibliotecas que podem ser usados pelos programas Java, como a capacidade de gerenciar memória, acessar o sistema de arquivos e se comunicar com outros programas através de redes. Além disso, a JVM inclui um conjunto de ferramentas de depuração e perfis que podem ser usadas para identificar e solucionar problemas em programas Java.
 
 # O que é um JDK ?
 
