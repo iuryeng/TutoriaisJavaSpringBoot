@@ -12,7 +12,7 @@
 
 5. Quando o download for concluído, localize o arquivo de instalação e clique duas vezes nele para iniciar o processo de instalação. Siga as instruções na tela para concluir a instalação.
 
-6. Depois de instalar o Java, é importante verificar se a instalação foi bem-sucedida. Abra o prompt de comando ou o terminal e digite o comando "java -version". Se a instalação foi bem-sucedida, o prompt exibirá informações sobre a versão do Java instalada.
+6. Depois de instalar o Java, é importante verificar se a instalação foi bem-sucedida. Abra o prompt de comando ou o terminal e digite o comando ``java -version``. Se a instalação foi bem-sucedida, o prompt exibirá informações sobre a versão do Java instalada.
 
 Se você tiver problemas durante o processo de instalação, verifique se você está baixando a versão correta para o seu sistema operacional e siga as instruções na tela. Se você continuar enfrentando problemas, pode ser necessário desinstalar o Java e reinstá-lo ou entrar em contato com o suporte do AdoptOpenJDK para obter ajuda.
 
@@ -35,6 +35,19 @@ Se você tiver problemas durante o processo de instalação, verifique se você 
 8. Clique em "OK" para criar a variável de ambiente "Path" e finalize o processo de configuração das variáveis de ambiente.
 
 9. Para verificar se a instalação foi realizada corretamente, abra o Prompt de Comando do sistema operacional e digite "java -version". Se a instalação foi realizada corretamente, o sistema deverá exibir a versão do Java instalada.
+
+## Personalizando a Instalação do AdoptOpenJDK: Configurando a Variável de Ambiente JAVA_HOME"
+
+Durante a instalação do AdoptOpenJDK, você pode selecionar a opção "Custom Setup" na tela de configuração para personalizar a instalação. Essa opção geralmente permite que você escolha quais componentes do Java deseja instalar e onde deseja instalá-los.
+
+Uma das opções que você pode selecionar na tela de configuração personalizada é a opção "Set JAVA_HOME". JAVA_HOME é uma variável de ambiente que é usada para especificar o caminho para o diretório principal do Java no seu sistema. Ela é usada por algumas ferramentas e aplicativos para encontrar o Java instalado no sistema.
+
+Para selecionar a opção "Set JAVA_HOME", basta clicar na caixa de seleção ao lado da opção e selecionar o diretório onde o Java foi instalado. Em geral, o diretório padrão para a instalação do Java é C:\Program Files\Java. Se você instalou o Java em outro lugar, pode selecionar o diretório correspondente.
+
+Depois de selecionar a opção "Set JAVA_HOME" e especificar o diretório de instalação do Java, basta clicar em "Next" para continuar com o processo de instalação. Siga as instruções na tela para concluir a instalação do AdoptOpenJDK.
+
+![image](https://user-images.githubusercontent.com/38250160/209458594-4cd8f90f-0f53-4191-88a4-8e797d8b887f.png)
+
 
 ## Para instalar o Java da Azul Systems, siga os seguintes passos:
 
