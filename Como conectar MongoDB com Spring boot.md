@@ -120,7 +120,7 @@ public class MongoDbTest {
 - Execute o teste usando o método de teste criado. Se o teste passar, significa que você conseguiu se conectar ao banco de dados e realizar uma operação. Se o teste falhar, verifique se você configurou corretamente os parâmetros de conexão no arquivo application.properties. Também verifique se o servidor MongoDB está rodando e se você tem permissão para acessar o banco de dados.
 
 
-## Extra: Você pode querer saber também:
+## Extra- Você pode querer saber também:
 
 Se preferir instale a CLI do MongoDb [CLI Atlas](https://www.mongodb.com/try/download/compass).
 
