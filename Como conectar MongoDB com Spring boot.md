@@ -167,6 +167,9 @@ Esses são apenas alguns exemplos de comandos que podem ser úteis no mongo shel
 - Inicie o mongo shell usando o comando mongo.
 - Selecione o banco de dados admin usando o comando use admin.
 - Crie o usuário usando o comando db.createUser({user: "nome_do_usuario", pwd: "senha", roles: ["root"]}). Substitua "nome_do_usuario" pelo nome desejado para o usuário e "senha" pelo password desejado.
+
+![image](https://user-images.githubusercontent.com/38250160/209456506-87499dc2-e5a3-4d34-91ca-224635846610.png)
+
 - Encerre o mongo shell usando o comando exit.
 - Modifique o arquivo de configuração do MongoDB para incluir as informações de autenticação. No arquivo de configuração, adicione as seguintes linhas:
 
