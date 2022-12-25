@@ -6,7 +6,11 @@ Para conectar o MongoDB com o Spring Boot, é necessário seguir os seguintes pa
 
 2. Adicione a dependência do Spring Data MongoDB ao seu projeto através do arquivo pom.xml (caso esteja usando Maven) ou do arquivo build.gradle (caso esteja usando Gradle).
 
-3. Configure a conexão com o MongoDB no arquivo application.properties, adicionando as seguintes propriedades:
+3. Configure a conexão com o MongoDB no arquivo application.properties
+
+4. Configure o uso do Spring Data MongoDB no projeto.
+
+5. Teste a conexão com o MongoDB 
 
 ## Passo 1: 
 Para conectar o MongoDB com Spring Boot, primeiro é preciso instalar o servidor MongoDB na sua máquina, se ainda não o tiver instalado. Você pode baixar o MongoDB no site oficial e seguir as instruções de instalação. baixe e instale a última versão disponível em https://www.mongodb.com/download-center/community. 
@@ -82,6 +86,8 @@ public class MongoDBConfig {
 - O @EnableMongoRepositories é um anotação usada para habilitar o suporte para repositórios MongoDB no projeto Spring Boot. Ele é usado para ativar a configuração de repositório MongoDB, que inclui a configuração do MappingMongoConverter para converter objetos Java para e de Documentos MongoDB.Quando a anotação é adicionada em um projeto, o Spring Boot irá procurar por todos os repositórios MongoDB na aplicação e os registrará como beans no contexto da aplicação. Isso permite que eles sejam usados em qualquer parte da aplicação, como controllers e services.Além disso, a anotação também permite especificar o pacote base para os repositórios MongoDB na aplicação, para que o Spring Boot possa facilmente encontrá-los durante a inicialização da aplicação.
 
 Com essas configurações, o Spring Boot já estará conectado ao MongoDB e pronto para persistir e recuperar dados.
+
+## Passo 5: 
 
 É possível testar a conexão criando uma classe de teste que conecte o MongoDB usando o Spring Boot. Para criar essa classe, siga os seguintes passos:
 
